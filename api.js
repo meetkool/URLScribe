@@ -3,7 +3,7 @@
  *
  * API For encoding and decoding URL hash objects
  *
- * Created by Jacob Strieb
+ * Created by meet bhanushali
  * July 2020
  */
 
@@ -35,7 +35,7 @@ apiVersions["0.2.0"] = {
     };
 
     const hashObject = b64.encode(JSON.stringify(urlData));
-    return `https://kooljool.keybase.pub/url/#${hashObject}`;
+    return `https://meet508.tech/urleditor/#${hashObject}`;
   },
 
   /* Return the page data from the object */
@@ -57,7 +57,7 @@ apiVersions["0.0.1"] = {
 
   /* Return a link to view the page */
   getViewLink: function(pageData) {
-    return `https://kooljool.keybase.pub/url/#${b64.encode(pageData)}`;
+    return `https://meet508.tech/urleditor/#${b64.encode(pageData)}`;
   },
 
 }
