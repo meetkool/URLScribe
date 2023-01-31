@@ -35,7 +35,7 @@ apiVersions["0.2.0"] = {
     };
 
     const hashObject = b64.encode(JSON.stringify(urlData));
-    return `https://meet508.tech/urleditor/#${hashObject}`;
+    return `https://meetkool.github.io/urleditor#${hashObject}`;
   },
 
   /* Return the page data from the object */
@@ -57,7 +57,7 @@ apiVersions["0.0.1"] = {
 
   /* Return a link to view the page */
   getViewLink: function(pageData) {
-    return `https://meet508.tech/urleditor/#${b64.encode(pageData)}`;
+    return `https://meetkool.github.io/urleditor#${b64.encode(pageData)}`;
   },
 
 }
