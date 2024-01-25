@@ -22,8 +22,7 @@ Read the Hacker News Discussion
 
 ## Encrypt
 
-It is now possible to encrypt URL Pages using [Link
-Lock](https://github.com/jstrieb/link-lock). This static, distributed web
+This static, distributed web
 application uses AES in the browser to encrypt the URL without transmitting any
 data. The encrypted link is then stored in a Link Lock URL, which, when
 visited, can only be unlocked with a password.
