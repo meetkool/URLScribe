@@ -75,7 +75,7 @@ javascript:(() => {
       };
 
       const hashObject = b64.encode(JSON.stringify(urlData));
-      return `meet508.tech/urleditor/#${hashObject}`;
+      return `url-scribe.vercel.app/#${hashObject}`;
     },
   };
 
