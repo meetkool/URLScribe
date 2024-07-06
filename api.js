@@ -57,7 +57,7 @@ apiVersions["0.0.1"] = {
 
   /* Return a link to view the page */
   getViewLink: function(pageData) {
-    return `https://meet508.tech/urleditor#${b64.encode(pageData)}`;
+    return `https://url-scribe.vercel.app/#${b64.encode(pageData)}`;
   },
 
 }
